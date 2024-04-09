@@ -1,7 +1,11 @@
 import Entry from "./Entry";
-import Chat from "./Chat";
+import Chat from "./chat/Chat";
+import Login from "./auth/Login";
+import Register from "./auth/Register";
 
 export { 
     Entry,
-    Chat
+    Chat,
+    Register,
+    Login
 }
